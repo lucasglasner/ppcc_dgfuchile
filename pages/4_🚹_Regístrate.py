@@ -10,7 +10,8 @@ import locale
 sys.path.append('../.')
 
 # Use Spanish Locale
-locale.setlocale(locale.LC_TIME, 'es_ES')
+#locale.setlocale(locale.LC_TIME, 'es_ES.UTF-8')
+
 st.set_page_config(page_title='Pluviómetros Ciudadanos DGF', layout="wide")
 
 

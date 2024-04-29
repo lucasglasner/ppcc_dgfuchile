@@ -14,7 +14,7 @@ import sys
 import locale
 sys.path.append('../.')
 
-locale.setlocale(locale.LC_TIME, 'es_ES')
+#slocale.setlocale(locale.LC_TIME, 'es_ES')
 st.set_page_config(page_title='Pluviómetros Ciudadanos DGF', layout="wide")
 
 events = sorted(os.listdir(f".{path_sep}eventos"))
